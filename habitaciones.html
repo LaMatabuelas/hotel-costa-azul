@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Costa Azul | Catálogo de Habitaciones y Servicios</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. ENCABEZADO Y NAVEGACIÓN PRINCIPAL -->
+    <header class="site-header">
+        <nav class="nav-container container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-icon">🌊</span>
+                <span>Hotel Costa Azul</span>
+            </a>
+
+            <!-- Menú de navegación: 'Habitaciones' tiene la clase active -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="habitaciones.html" class="nav-link active">Habitaciones</a></li>
+                <li><a href="reservas.html" class="nav-link">Reservas</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                <li><a href="login.html" class="btn btn-login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. ENCABEZADO DE PÁGINA -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Nuestras Habitaciones y Suites</h1>
+                <p>Encuentra el alojamiento ideal para tus vacaciones de playa o viaje de descanso con todas las comodidades incluidas.</p>
+            </div>
+        </section>
+
+        <!-- 3. SERVICIOS GENERALES INCLUIDOS -->
+        <section class="features-section container">
+            <div class="section-title">
+                <h2>Servicios Incluidos en Todas las Habitaciones</h2>
+                <p>Tu tarifa siempre incluye amenidades de primer nivel para una experiencia sin preocupaciones.</p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">📶</div>
+                    <h3>Wi-Fi de Alta Velocidad</h3>
+                    <p>Conexión inalámbrica por fibra óptica en todas las habitaciones y áreas comunes.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">❄️</div>
+                    <h3>Aire Acondicionado</h3>
+                    <p>Climatización silenciosa e individual con control remoto en cada estancia.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">☕</div>
+                    <h3>Desayuno Buffet Diario</h3>
+                    <p>Variedad de frutas tropicales, panes recién horneados, café gourmet y platos calientes.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🚗</div>
+                    <h3>Estacionamiento Privado</h3>
+                    <p>Aparcamiento gratuito y vigilancia 24/7 dentro del complejo hotelero.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 4. CATÁLOGO COMPLETO DE HABITACIONES -->
+        <section class="rooms-section container">
+            <div class="section-title">
+                <h2>Elige tu Tipo de Habitación</h2>
+                <p>Opciones adaptadas a viajeros individuales, parejas, familias y grupos.</p>
+            </div>
+
+            <div class="rooms-grid">
+                <!-- Habitación 1 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80" alt="Habitación Individual Estándar">
+                        <span class="price-badge">$55 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Individual Confort</h3>
+                        <p>Diseñada para viajeros solitarios o profesionales en viaje de trabajo. Espacio práctico, cama individual acolchada y escritorio de trabajo.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👤 1 Huésped</span>
+                            <span class="amenity-tag">🛏️ Cama Individual</span>
+                            <span class="amenity-tag">📶 Wi-Fi Fibra</span>
+                            <span class="amenity-tag">❄️ Aire Acondicionado</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 2 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80" alt="Habitación Doble Estándar">
+                        <span class="price-badge">$85 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Doble Estándar</h3>
+                        <p>Perfecta para escapadas en pareja. Incluye cama queen size con sábanas de algodón egipcio, baño privado y vista a los jardines interiores.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👥 2 Huéspedes</span>
+                            <span class="amenity-tag">🛏️ Cama Queen Size</span>
+                            <span class="amenity-tag">☕ Desayuno Incluido</span>
+                            <span class="amenity-tag">🚿 Ducha con Agua Caliente</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 3 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Habitación Doble Superior con Balcón">
+                        <span class="price-badge">$115 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Doble Superior con Balcón</h3>
+                        <p>Balcón privado con vista lateral a la playa y muebles de exterior para disfrutar la brisa marina. Equipada con minibar y Smart TV.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👥 2 Huéspedes</span>
+                            <span class="amenity-tag">🌅 Balcón Privado</span>
+                            <span class="amenity-tag">🍷 Minibar Surtido</span>
+                            <span class="amenity-tag">📺 Smart TV 50"</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 4 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Suite Familiar Deluxe">
+                        <span class="price-badge">$145 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Suite Familiar Deluxe</h3>
+                        <p>Amplitud y comodidad para viajar con los pequeños. Cuenta con 2 camas matrimoniales, sala de descanso independiente y 2 baños completos.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👨‍👩‍👧‍👦 Hasta 4 Huéspedes</span>
+                            <span class="amenity-tag">🛏️ 2 Camas Matrimoniales</span>
+                            <span class="amenity-tag">🛋️ Sala de Estar</span>
+                            <span class="amenity-tag">☕ Desayuno Buffet</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 5 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80" alt="Suite Ejecutiva Business">
+                        <span class="price-badge">$135 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Suite Ejecutiva Business</h3>
+                        <p>Ideal para estadías prolongadas o nómadas digitales. Cuenta con área de trabajo ergonómica, cafetera Nespresso y caja de seguridad para laptop.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👥 2 Huéspedes</span>
+                            <span class="amenity-tag">💻 Escritorio Ergonómico</span>
+                            <span class="amenity-tag">🔒 Caja Fuerte Digital</span>
+                            <span class="amenity-tag">☕ Cafetera de Cápsulas</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 6 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80" alt="Suite Presidencial Frente al Mar">
+                        <span class="price-badge">$195 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Suite Presidencial Vista al Mar</h3>
+                        <p>Nuestra joya frente al océano. Cama King Size, terraza privada con tina de hidromasaje exterior y servicio de conserje exclusivo.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👑 2 Huéspedes</span>
+                            <span class="amenity-tag">🛁 Tina de Hidromasaje</span>
+                            <span class="amenity-tag">🌊 Vista Frontal al Mar</span>
+                            <span class="amenity-tag">🍾 Champaña de Bienvenida</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Habitación</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 5. GALERÍA DE FOTOS DE LAS INSTALACIONES -->
+        <section class="gallery-section container">
+            <div class="section-title">
+                <h2>Galería de Instalaciones</h2>
+                <p>Recorre los rincones que hacen único a Hotel Costa Azul.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80" alt="Piscina Infinita">
+                    <div class="gallery-caption">Piscina Infinita al Atardecer</div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurante Frente al Mar">
+                    <div class="gallery-caption">Restaurante Gourmet & Terraza</div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" alt="Zona de Spa y Relajación">
+                    <div class="gallery-caption">Spa y Circuito de Hidroterapia</div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=600&q=80" alt="Lobby y Recepción">
+                    <div class="gallery-caption">Lobby y Sala de Estar Principal</div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Playa Privada">
+                    <div class="gallery-caption">Área de Playa Privada</div>
+                </article>
+
+                <article class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&q=80" alt="Bar Tropical">
+                    <div class="gallery-caption">Bar Tropical & Coctelería</div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. PIE DE PÁGINA -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section class="footer-col">
+                <h3>Hotel Costa Azul</h3>
+                <p>Tu destino soñado para descansar frente al mar. Calidez, confort y momentos memorables garantizados.</p>
+            </section>
+
+            <nav class="footer-col" aria-label="Enlaces rápidos">
+                <h3>Navegación Rápida</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="habitaciones.html">Nuestras Habitaciones</a></li>
+                    <li><a href="reservas.html">Simulador de Reserva</a></li>
+                    <li><a href="contacto.html">Contacto y Ubicación</a></li>
+                    <li><a href="login.html">Acceso de Huéspedes</a></li>
+                </ul>
+            </nav>
+
+            <aside class="footer-col">
+                <h3>Contacto Directo</h3>
+                <p>📍 Av. Costanera Sur #124, Playa Hermosa</p>
+                <p>📞 Teléfono: +503 2200-1122</p>
+                <p>✉️ reservas@hotelcostazul.com</p>
+                <p>🕒 Atención: 24/7</p>
+            </aside>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Hotel Costa Azul. Proyecto Final de Desarrollo Web - Eduardo Alejandro García Díaz.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+

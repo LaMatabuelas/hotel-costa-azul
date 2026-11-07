@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Costa Azul | Inicio y Confort Frente al Mar</title>
+    <!-- Google Fonts: Tipografía moderna y legible -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Hoja de estilos externa (CSS puro sin estilos en línea) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. ENCABEZADO Y NAVEGACIÓN PRINCIPAL (Semántica obligatoria) -->
+    <header class="site-header">
+        <nav class="nav-container container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-icon">🌊</span>
+                <span>Hotel Costa Azul</span>
+            </a>
+
+            <!-- Menú de navegación con clase .active en la página actual -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="habitaciones.html" class="nav-link">Habitaciones</a></li>
+                <li><a href="reservas.html" class="nav-link">Reservas</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                <li><a href="login.html" class="btn btn-login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. SECCIÓN PRINCIPAL / HERO BANNER -->
+        <section class="hero-section">
+            <div class="container hero-content">
+                <h1>Vive una Experiencia Inolvidable Frente al Mar</h1>
+                <p>Descubre el equilibrio perfecto entre lujo, serenidad y gastronomía en el destino costero más
+                    exclusivo.</p>
+                <div class="hero-buttons">
+                    <a href="reservas.html" class="btn btn-primary">Reservar Ahora</a>
+                    <a href="habitaciones.html" class="btn btn-outline">Ver Habitaciones</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. BARRA RÁPIDA DE DISPONIBILIDAD -->
+        <section class="quick-booking container">
+            <form action="reservas.html" method="get" class="booking-bar-form">
+                <div class="form-group">
+                    <label for="checkin">Fecha de Entrada</label>
+                    <input type="date" id="checkin" name="checkin" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkout">Fecha de Salida</label>
+                    <input type="date" id="checkout" name="checkout" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Huéspedes</label>
+                    <select id="guests" name="guests" class="form-select">
+                        <option value="1">1 Huésped</option>
+                        <option value="2" selected>2 Huéspedes</option>
+                        <option value="3">3 Huéspedes</option>
+                        <option value="4">4 o más Huéspedes</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Buscar Disponibilidad</button>
+            </form>
+        </section>
+
+        <!-- 4. PROPUESTA DE VALOR / CARACTERÍSTICAS -->
+        <section class="features-section container">
+            <div class="section-title">
+                <h2>¿Por Qué Elegir Hotel Costa Azul?</h2>
+                <p>Cuidamos cada detalle para que tu estadía sea relajante y placentera.</p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">🏖️</div>
+                    <h3>Frente a la Playa</h3>
+                    <p>Acceso directo a la arena blanca y aguas cristalinas con zona de camastros privados.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🍽️</div>
+                    <h3>Gastronomía Exquisita</h3>
+                    <p>Desayuno buffet incluido todas las mañanas y restaurante de mariscos frescos y cortes.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🏊‍♂️</div>
+                    <h3>Piscina Infinita & Spa</h3>
+                    <p>Relájate en nuestra piscina con vista panorámica al océano y circuito de masajes relajantes.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">🛎️</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Recepción disponible las 24 horas y conserjería para organizar tus paseos turísticos.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 5. HABITACIONES DESTACADAS -->
+        <section class="rooms-section container">
+            <div class="section-title">
+                <h2>Habitaciones Destacadas</h2>
+                <p>Espacios modernos diseñados para tu máximo confort y descanso.</p>
+            </div>
+
+            <div class="rooms-grid">
+                <!-- Habitación 1 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80"
+                            alt="Habitación Doble Estándar">
+                        <span class="price-badge">$85 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Doble Estándar</h3>
+                        <p>Ideal para parejas. Disfruta de una cama queen size, baño privado y vista a nuestros jardines
+                            tropicales.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">📶 Wi-Fi Alta Velocidad</span>
+                            <span class="amenity-tag">❄️ Aire Acondicionado</span>
+                            <span class="amenity-tag">☕ Desayuno Incluido</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 2 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+                            alt="Suite Familiar Deluxe">
+                        <span class="price-badge">$145 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Suite Familiar Deluxe</h3>
+                        <p>Espacio amplio para toda la familia con 2 camas matrimoniales, sala de estar y terraza
+                            privada.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">👨‍👩‍👧‍👦 Hasta 4 Huéspedes</span>
+                            <span class="amenity-tag">📺 Smart TV 55"</span>
+                            <span class="amenity-tag">☕ Desayuno Buffet</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </article>
+
+                <!-- Habitación 3 -->
+                <article class="room-card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+                            alt="Suite Presidencial Vista al Mar">
+                        <span class="price-badge">$195 / noche</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Suite Presidencial Vista Mar</h3>
+                        <p>Nuestra experiencia más exclusiva: cama king size, jacuzzi privado frente al mar y atención
+                            preferencial.</p>
+                        <div class="amenities-list">
+                            <span class="amenity-tag">🌊 Vista Panorámica</span>
+                            <span class="amenity-tag">🛁 Jacuzzi Privado</span>
+                            <span class="amenity-tag">🍾 Minibar de Cortesía</span>
+                        </div>
+                        <a href="reservas.html" class="btn btn-primary">Reservar Ahora</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 6. TESTIMONIOS DE HUÉSPEDES -->
+        <section class="testimonials-section container">
+            <div class="section-title">
+                <h2>Lo Que Opinan Nuestros Huéspedes</h2>
+                <p>La satisfacción de quienes nos visitan es nuestra mayor recompensa.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Una estancia perfecta. Las habitaciones son súper limpias, la comida exquisita y el personal
+                        siempre atento con una sonrisa."</p>
+                    <div class="client-name">Valeria Menjívar</div>
+                    <div class="client-location">San Salvador, El Salvador</div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"La vista al atardecer desde la piscina es de otro mundo. Sin duda volveremos en nuestras
+                        próximas vacaciones en familia."</p>
+                    <div class="client-name">Carlos Mendoza</div>
+                    <div class="client-location">Guatemala</div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Excelente conectividad Wi-Fi para trabajar mientras disfrutas del mar. El desayuno buffet superó
+                        todas mis expectativas."</p>
+                    <div class="client-name">Mariana Torres</div>
+                    <div class="client-location">Costa Rica</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 7. LLAMADO A LA ACCIÓN (CTA) -->
+        <section class="cta-banner">
+            <div class="container">
+                <h2>¿Listo para tus Próximas Vacaciones?</h2>
+                <p>Reserva directamente en nuestra web y asegura el mejor precio disponible sin intermediarios.</p>
+                <a href="reservas.html" class="btn btn-primary">Cotizar mi Estadía</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- 8. PIE DE PÁGINA (Semántica obligatoria) -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section class="footer-col">
+                <h3>Hotel Costa Azul</h3>
+                <p>Tu destino soñado para descansar frente al mar. Calidez, confort y momentos memorables garantizados.
+                </p>
+            </section>
+
+            <nav class="footer-col" aria-label="Enlaces rápidos">
+                <h3>Navegación Rápida</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="habitaciones.html">Nuestras Habitaciones</a></li>
+                    <li><a href="reservas.html">Simulador de Reserva</a></li>
+                    <li><a href="contacto.html">Contacto y Ubicación</a></li>
+                    <li><a href="login.html">Acceso de Huéspedes</a></li>
+                </ul>
+            </nav>
+
+            <aside class="footer-col">
+                <h3>Contacto Directo</h3>
+                <p>📍 Av. Costanera Sur #124, Playa Hermosa</p>
+                <p>📞 Teléfono: +503 2200-1122</p>
+                <p>✉️ reservas@hotelcostazul.com</p>
+                <p>🕒 Atención: 24/7</p>
+            </aside>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Hotel Costa Azul. Proyecto Final de Desarrollo Web - Eduardo Alejandro García Díaz.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
